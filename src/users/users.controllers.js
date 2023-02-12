@@ -1,12 +1,13 @@
 const userDB =[
-  {
-    id: 1,
-    firstName: "Marco",
-    lastName: "Diaz",
-    email: "marco@academlo.com",
-    password: "Antonio1234",
-    age: 22
-  },
+  
+    {
+      id: 1,
+      firstName:"Sahid",
+      lastName: "Kick",
+      email: "sahid.kick@academlo.com",
+      password: "root",
+      age: 22
+    },
   {
     id: 2,
     firstName: "Irene",
