@@ -4,7 +4,7 @@ const usersController = require('./users.controllers')
 const getAllUser = (req, res) => {
   usersController.findAllUsers()
   .then(data => {
-    res.status(200).json(data)
+    res.status(201).json(data)
   })
   .catch(err => {
     res.status(400).json(err)
@@ -16,7 +16,7 @@ const getUsersById = (req, res) => {
   usersController.findUsersById(id)
     .then(data => {
       if(data){
-        res.status(200).json(data)
+        res.status(201).json(data)
       }else{
          res.status(404).json({message: 'User not found'})
       }
